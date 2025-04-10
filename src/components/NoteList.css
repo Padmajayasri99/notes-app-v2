@@ -1,0 +1,41 @@
+.note-list {
+    width: 250px;
+    padding: 1rem;
+    background-color: #282c34;
+    color: rgb(43, 82, 130);
+  }
+  
+  .note-list h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .add-btn {
+    background-color: #61dafb;
+    border: none;
+    padding: 0.5rem;
+    color: #000;
+    width: 100%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .note-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .note-list li {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #3a3f47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .note-list li.selected {
+    background-color: #61dafb;
+    color: #000;
+  }
+  

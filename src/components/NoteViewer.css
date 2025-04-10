@@ -1,0 +1,21 @@
+.note-viewer {
+    flex: 1;
+  }
+  
+  .viewer-buttons {
+    margin-top: 10px;
+  }
+  
+  .viewer-buttons button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .viewer-buttons .delete {
+    background-color: crimson;
+    color: white;
+    border: none;
+  }
+  

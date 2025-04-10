@@ -1,0 +1,20 @@
+.note-editor {
+  flex: 1;
+  padding: 1rem;
+  background-color: #f7f9fc;
+  overflow-y: auto;
+}
+
+/* Style for Write and Preview tabs */
+.react-mde .mde-tabs button {
+  color: #007bff; /* Blue text */
+  background: transparent;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+.react-mde .mde-tabs button.selected {
+  border-bottom: 2px solid #007bff; /* Blue underline for selected */
+  color: #007bff;
+}
